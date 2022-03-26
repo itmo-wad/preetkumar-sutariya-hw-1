@@ -7,7 +7,7 @@ def home():
 
 @app.route('/profile')
 def about():
-    return render_template('profile.html')
+    return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(host='localhost', port=5000)
